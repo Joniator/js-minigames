@@ -1,0 +1,6 @@
+Order Deny, Allow
+
+<FilesMatch **/index.html **/main.(js|css)>
+  Order Allow, Deny
+  Allow from all
+<FilesMatch>
